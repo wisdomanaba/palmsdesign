@@ -1,0 +1,189 @@
+
+@media screen and (max-width: 991px){
+    #main .content h1{
+        text-align: center;
+        font-style: oblique;
+    }
+    #main .content2{
+        text-align: center;
+        margin-top: 10%;
+    }
+    #main .content .intro-text{
+        margin-top: 10%;
+    }
+    #main .content2 h3{
+        font-size: 33px;
+    }
+    #main .content2 p{
+        font-style: oblique;
+    }
+    #main .content .btn-color{
+        margin: 0 auto;
+    }
+    .col-md-10{
+        max-width: none;
+    }
+    #main .content2 .circle img{
+        text-align: center;
+    }
+    .col-md-2{
+        max-width: none;
+    }
+    .col-sm-2{
+        max-width: none;
+    }
+    .head-title {
+        font-size: 40px !important;
+        text-align: center;
+    }
+    nav{
+        padding: 5px 30px !important; 
+    }
+    .space-60 {
+        height: 60px;
+    }
+    .space-70 {
+        display: none;
+    }
+    .blog-header__circle {
+        position: absolute;
+        top: -20px;
+        right: 0px;
+        width: 150px;
+        height: 150px;
+        border-radius: 110px;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255,133,11,1)), to(#FFC837));
+        background: linear-gradient(to right, rgba(255,133,11,1), #FFC837);
+        mix-blend-mode: multiply;
+        -webkit-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+        -webkit-transition-delay: 50ms;
+        transition-delay: 50ms;
+    }
+    
+    .blog-header__square {
+        position: absolute;
+        top: -30px;
+        right: 70px;
+        width: 140px;
+        height: 140px;
+        background: -webkit-gradient(linear, left top, right top, from(#FF8008), to(rgba(255,206,54,1)));
+        background: linear-gradient(to right, #FF8008, rgba(255,206,54,1));
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    }
+
+    #breadcrumb{
+        background: linear-gradient(150deg,rgba(0,0,0,0.3), rgba(255,213,17,0.7)), url("../images/brand/directors.png") no-repeat 0px 20px;
+        background-size: cover;
+        padding: 150px 0px 50px 0px;
+        color: #ffffff;
+        z-index: -100;
+    }
+    
+    .my {
+        background: -webkit-linear-gradient(#FFC837,#FF8008);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
+    }
+
+    #sourcing{
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/brand/c-image.jpg") no-repeat 0px -20px;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}   
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    #main .content2 .circle img {
+        width: 250px;
+        height: 250px;
+    }
+    #main .content .btn-color{
+        background: linear-gradient(-10deg, #db1416 30%, #9e1113 100%) !important;
+        border: none;
+        padding: 15px 40px !important;
+        margin-top: 10%;
+    }
+    #main .content h1{
+        font-size: 90px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    #main .content2 h3{
+        font-size: 50px;
+    }
+    #main .content2 p {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 767px){
+    .nav-item{
+        padding: 0px 0px !important;
+    }
+    #main .content2 h3{
+        font-size: 31px;
+    }
+    #main .content h1{
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    #main .content .btn-color{
+        background: linear-gradient(-10deg, #db1416 30%, #9e1113 100%) !important;
+        border: none;
+        padding: 10px 40px !important;
+    }
+    #clients li{
+        padding: 10px;
+    }
+    #clients li img{
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 361px){
+    #main .content2 .circle img {
+        width: 200px;
+        height: 200px;
+    }
+    #main .content .btn-color{
+        background: linear-gradient(-10deg, #db1416 30%, #9e1113 100%) !important;
+        border: none;
+        padding: 10px 40px !important;
+        margin-top: 15%;
+    }
+}
+
+@media(max-width: 375px){
+
+    #main .content2 {
+        text-align: center;
+        margin-top: 4%;
+    }
+    #main .content h1 {
+        letter-spacing: 1px;
+    }
+    #main .content .intro-text {
+        margin-top: 2%;
+    }
+
+    #main .content2 h3 {
+        font-size: 22px;
+    }
+
+}
+
+/* 
+Reliability: Clients don’t just want talent. They want to get to know someone they can count on. It’s important to be reliable, manage client needs, develop consistency and prove trustworthiness. It’s a sure road to a long and happy working relationship.
+
+Patience: Design work can be slow going—answers don’t often come quickly. It takes patience to let an idea develop, work on communication and try out creative alternatives before getting to the end result. You have to go with the flow!
+
+Curiosity: You won’t get far in design if you don’t have a love of art, or a curiosity for the world around you. Designers love to look beyond the surface of things, to explore both the minute detail and the big picture
+
+*/

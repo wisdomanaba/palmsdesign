@@ -1,0 +1,180 @@
+#contact-form .map div{
+  border-radius: 15px;
+}
+
+.contact-details{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-details .row div{
+  text-align: center;
+}
+
+.contact-details .row div i{
+  font-size: 53px;
+}
+
+.contact-details .row div p{
+  font-size: 13px;
+  color: #767171;
+}
+
+.head{
+    padding: 20px 0px;
+}
+
+.head h3{
+  font-size: 2.2em;
+}
+
+.head:nth-child(2){
+  text-align: center;
+}
+
+.info{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info form input{
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 2px solid #9fa29f;
+    background: none;
+}
+
+.info form textarea{
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 2px solid #9fa29f;
+    background: none;
+    resize: none;
+}
+
+.info form label{
+    color: #9fa29f;
+}
+
+.info form button{
+    color: #ffffff;
+    background: #FF8008;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    z-index: 1 !important;
+}
+
+.info2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #FF8008;
+    color: #ffffff;
+}
+
+.info2-content div{
+  margin-bottom: 27px;
+}
+
+.info2 i{
+  font-size: 60px;
+}
+
+.errors{
+  background: #df8f8f;
+  border: 1px solid #ee3e3e;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 1em;
+  color: #ee3e3e;
+  text-align: center;
+}
+
+.success{
+    background: #8fdfb9;
+    border: 1px solid #0d8145;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 1em;
+    color: #0d8145;
+    text-align: center;
+}
+
+/* The Modal (background) */
+.sucess {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.sucess-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.error {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.error-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* #899398 */
+/* #C0C0C0	 */
+
+.mail-nav{
+  background: #FF8008;
+  padding: 10px;
+}
+
+.mail-nav a img{
+  width: 80px;
+}
+
+.mail-sender{
+  float: right;
+  margin-top: -70px;
+}
